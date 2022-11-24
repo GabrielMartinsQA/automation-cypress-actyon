@@ -8,7 +8,7 @@ describe('Users', () => {
     const user = {
         nome: faker.name.findName(),
         senha: '1234',
-        id_perfil: 'PERFIL ADMIN',
+        perfil: 'PERFIL ADMIN',
         status: 'S'
     }
 
