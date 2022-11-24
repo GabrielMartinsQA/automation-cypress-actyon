@@ -14,7 +14,7 @@ describe('Users', () => {
 
     before(() => {
         cy.login()
-        cy.get(el.btn_loggedUser).should('exist')
+        //cy.get(el.btn_loggedUser).should('exist')
     })
 
     it('successfully', () => {
