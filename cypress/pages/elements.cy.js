@@ -2,14 +2,36 @@ exports.el = {
 
     //LOGIN
     img_actyon: '._ngcontent-rud-c88',
-    inp_login: 'input[id=Nome]',
-    inp_senha: 'input[id=Senha]',
+    ipt_login: 'input[id=Nome]',
+    ipt_senha: 'input[id=Senha]',
     dpd_conexao: '[formcontrolname=Conexao]',
     dpd_value: '(dbActyon_exponencial) - 192.168.2.154',
     btn_login: 'button[type=submit]',
 
     //HOME
     btn_loggedUser: '#userDropdown',
+    btn_sideBarMenu: '.menu-toggle',
+    btn_seguranca: 'Segurança',
+    btn_seguranca_usuarios: 'Usuários',    
+    btn_newUser: 'Novo usuário',
+
+    //USUARIO
+    ipt_loginUsuario: '[formcontrolname=login]',
+    ipt_nomeUsuario: '[formcontrolname=nome]',
+    cbb_statusUsuario: '[formcontrolname=ativo]',
+    ipt_senhaUsuario: '[formcontrolname=senha]',
+    ipt_repetirSenhaUsuario: '[formcontrolname=repetirSenha]',
+    ipt_loginCentralUsuario: '[formcontrolname=loginCentral]',
+    ipt_senhaCentralUsuario: '[formcontrolname=senhaCentral]',
+    cbb_perfilUsuario: '[formcontrolname=perfil]',
+    ckb_cobrador: '[formcontrolname=cobrador]',
+    btn_salvarUsuario: 'Salvar',
+    btn_fecharUsuario: 'Fechar',
+
+
+
+
+
     btn_new_credit_analisys: '.primary[href]',
     lbl_search_credit_analysis: '#search-input',
     btn_search: '#form-search-button > .btn-container > .label',
