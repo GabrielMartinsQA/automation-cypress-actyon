@@ -1,0 +1,12 @@
+{
+    "operador": {
+        "nome": "string",
+        "operadoR_ID": "string",
+        "senha": "1234",
+        "id_perfil": 0,
+        "status": "string",
+        "login_central": "string",
+        "senha_central": "string",
+        "usuario_inclusao": "string"
+    }
+}
