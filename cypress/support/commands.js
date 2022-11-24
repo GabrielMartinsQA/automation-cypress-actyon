@@ -8,6 +8,7 @@ Cypress.Commands.add('login', () => {
     cy.get(el.ipt_login).type(Cypress.env('user_name'))
     cy.get(el.ipt_senha).type(Cypress.env('user_password'))
     cy.get(el.btn_login).click()
+    cy.wait(5000)
 })
 
 Cypress.Commands.add('createUser', user => {
